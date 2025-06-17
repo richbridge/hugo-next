@@ -251,7 +251,7 @@ params:
 
   # 开启暗模式
   # Dark Mode
-  darkmode: true
+  darkmode: false
 
 
   # 站点基本信息
@@ -264,14 +264,14 @@ params:
   # 不同尺寸站点图标
   # Different size of favicon
   favicon:
-    icon: /imgs/icons/favicon.ico
+    icon: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/favicon.avif
     small: /imgs/icons/favicon_16x16_next.png
     medium: /imgs/icons/favicon_32_32_next.png
     appleTouchIcon: /imgs/icons/apple_touch_icon_next.png
 
   # 自定义 Logo （目前只支持 Mist 页面模式）
   # Custom Logo (Warning: Only support scheme Mist)
-  customLogo: #/imgs/hugo_next_logo.png
+  customLogo: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/favicon.avif #/imgs/hugo_next_logo.png
 
   # 用户自定义文件配置
   # Define custom file paths.
@@ -914,7 +914,7 @@ params:
     # 可选值：livere | waline | utterances | artalk | giscus
     # Choose a comment system to be displayed by default.
     # Available values: livere | waline | utterances | artalk | giscus 
-    active: waline
+    active: giscus
     # 让用户自己选择使用评论插件留言
     # 如果设置为 false，将采用 active 参数的那个插件
     # Setting `true` means remembering the comment system selected by 
@@ -1005,35 +1005,35 @@ params:
   # Giscus comments system
   # For more information: https://giscus.app
   # giscus:
-  #   # Github 仓库地址，格式：用户名/仓库名称
-  #   # Github repository owner and name
-  #   repo: username/repo-name
-  #   # Giscus 生成的仓库 Id
-  #   # Generate repository Id from Giscus
-  #   repoId: #<repo-id>
-  #   # 讨论区的分类名称
-  #   # Github discussions category
-  #   category: Comments
-  #   # 讨论区分类 ID
-  #   # Generate category Id from Giscus
-  #   categoryId: #<category-id>
-  #   # 帖子上的反应将会显示在评论前
-  #   # The reactions for post will be shown before the comments
-  #   reactions: false
-  #   # 将元数据定期被发送到父页面（被嵌入的页面或控制台，用于调试）
-  #   # Metadata will be sent periodically to the parent window
-  #   emit: false
-  #   # 评论输入框的位置，可选值： top | bottom
-  #   # Aavilable value: top | bottom
-  #   # 讨论区帖子标题，可选值： pathname | url | title | og:title | 自定义
-  #   # Available values: pathname | url | title | og:title | custom
-  #   mapping: title
-  #   # 评论输入框的位置，可选值： top | bottom
-  #   # Aavilable value: top | bottom
-  #   inputPosition: top
-  #   # 主题可选值： light | light_high_contrast | light_protanopia | light_tritanopia | dark | dark_high_contrast | dark_protanopia | dark_tritanopia | dark_dimmed | transparent_dark | preferred_color_scheme
-  #   # Available values: light | light_high_contrast | light_protanopia | light_tritanopia | dark | dark_high_contrast | dark_protanopia | dark_tritanopia | dark_dimmed | transparent_dark | preferred_color_scheme
-  #   theme: preferred_color_scheme
+    # Github 仓库地址，格式：用户名/仓库名称
+    # Github repository owner and name
+    repo: richbridge/hugo-next # username/repo-name
+    # Giscus 生成的仓库 Id
+    # Generate repository Id from Giscus
+    repoId: R_kgDOOaTx8Q #<repo-id>
+    # 讨论区的分类名称
+    # Github discussions category
+    category: General
+    # 讨论区分类 ID
+    # Generate category Id from Giscus
+    categoryId: DIC_kwDOOaTx8c4CrmZE #<category-id>
+    # 帖子上的反应将会显示在评论前
+    # The reactions for post will be shown before the comments
+    reactions: false
+    # 将元数据定期被发送到父页面（被嵌入的页面或控制台，用于调试）
+    # Metadata will be sent periodically to the parent window
+    emit: false
+    # 评论输入框的位置，可选值： top | bottom
+    # Aavilable value: top | bottom
+    # 讨论区帖子标题，可选值： pathname | url | title | og:title | 自定义
+    # Available values: pathname | url | title | og:title | custom
+    mapping: title
+    # 评论输入框的位置，可选值： top | bottom
+    # Aavilable value: top | bottom
+    inputPosition: top
+    # 主题可选值： light | light_high_contrast | light_protanopia | light_tritanopia | dark | dark_high_contrast | dark_protanopia | dark_tritanopia | dark_dimmed | transparent_dark | preferred_color_scheme
+    # Available values: light | light_high_contrast | light_protanopia | light_tritanopia | dark | dark_high_contrast | dark_protanopia | dark_tritanopia | dark_dimmed | transparent_dark | preferred_color_scheme
+    theme: preferred_color_scheme
 
   # # twikoo 评论插件
   # # 更多配置信息请参考：https://twikoo.js.org
