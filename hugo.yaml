@@ -151,7 +151,7 @@ outputFormats:
   # 自定义生成本地搜索文件
   # Custom file of indexes for local search
   LocalIndexes:
-    mediaType: application/xml
+    mediaType: application/json
     baseName: searchindexes
     isPlainText: true
     notAlternative: true
@@ -1129,7 +1129,7 @@ params:
   # Algolia Search
   # For more information: https://www.algolia.com
   algoliaSearch:
-    enable: true
+    enable: false
     appId: HP3W07LYYY #<algolia app id>
     apiKey: 24dfda5a193a1833e5b17606053cdc78 #<algolia api key>
     indexName: index #<algolia index name>
@@ -1137,14 +1137,14 @@ params:
       perPage: 10
     # 索引生成内容长度字数限制
     # Index generation content length word count limit.
-    limit: 1000
+    limit: 100
 
   # 本地搜索
   # Local Search
   localSearch:
     # 是否开启搜索功能
     # Enable search function
-    enable: false
+    enable: true
     # 搜索索引文件路径
     # Indexes file path for search
     path: /searchindexes.xml
