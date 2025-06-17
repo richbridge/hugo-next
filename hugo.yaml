@@ -1132,7 +1132,7 @@ params:
     enable: true
     appId: HP3W07LYYY #<algolia app id>
     apiKey: 24dfda5a193a1833e5b17606053cdc78 #<algolia api key>
-    indexName: index #<algolia index name>
+    indexName:  #<algolia index name>
     hits:
       perPage: 10
     # 索引生成内容长度字数限制
