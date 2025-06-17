@@ -265,13 +265,13 @@ params:
   # Different size of favicon
   favicon:
     icon: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/favicon.avif
-    small: /imgs/icons/favicon_16x16_next.png
-    medium: /imgs/icons/favicon_32_32_next.png
-    appleTouchIcon: /imgs/icons/apple_touch_icon_next.png
+    small: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/favicon.avif
+    medium: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/favicon.avif
+    appleTouchIcon: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/favicon.avif
 
   # 自定义 Logo （目前只支持 Mist 页面模式）
   # Custom Logo (Warning: Only support scheme Mist)
-  customLogo: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/favicon.avif #/imgs/hugo_next_logo.png
+  customLogo: #/imgs/hugo_next_logo.png
 
   # 用户自定义文件配置
   # Define custom file paths.
@@ -1112,10 +1112,10 @@ params:
   # Algolia Search
   # For more information: https://www.algolia.com
   algoliaSearch:
-    enable: false
-    appId: #<algolia app id>
-    apiKey: #<algolia api key>
-    indexName: #<algolia index name>
+    enable: true
+    appId: HP3W07LYYY #<algolia app id>
+    apiKey: 24dfda5a193a1833e5b17606053cdc78 #<algolia api key>
+    indexName: hugo #<algolia index name>
     hits:
       perPage: 10
     # 索引生成内容长度字数限制
@@ -1127,7 +1127,7 @@ params:
   localSearch:
     # 是否开启搜索功能
     # Enable search function
-    enable: true
+    enable: false
     # 搜索索引文件路径
     # Indexes file path for search
     path: /searchindexes.xml
