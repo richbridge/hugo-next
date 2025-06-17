@@ -919,7 +919,7 @@ params:
     # 如果设置为 false，将采用 active 参数的那个插件
     # Setting `true` means remembering the comment system selected by 
     # the visitor, otherwise use the `active` setting comment system.
-    storage: true
+    storage: false
     # TODO
     # Lazyload all comment systems.
     # lazyload: false
@@ -934,7 +934,7 @@ params:
       - name: giscus
         title: Giscus
         color: "#886ce4"
-        weight: 2
+        weight: 1
 
   # Waline 评论插件
   # 更多配置信息请参考：https://waline.js.org/
@@ -1004,7 +1004,7 @@ params:
   # 更多配置信息请参考：https://giscus.app
   # Giscus comments system
   # For more information: https://giscus.app
-  # giscus:
+  giscus:
     # Github 仓库地址，格式：用户名/仓库名称
     # Github repository owner and name
     repo: richbridge/hugo-next # username/repo-name
