@@ -12,7 +12,7 @@
 
 # 站点域名，比如： https://hugo-next.eu.org
 # Website domain, eg: https://hugo-next.eu.org
-baseURL: /
+baseURL: https://richfan.eu.org
 # 站点标题
 # Website title
 title: 樊尘刹记
@@ -565,7 +565,7 @@ params:
     readTime: true
     # 是否开启评论数显示
     comments: 
-      enable: true
+      enable: false
       # 评论统计插件，暂只支持waline | waline3 | twikoo
       # Comment counter plugin, only support waline | waline3 | twikoo
       plugin: waline
@@ -909,7 +909,7 @@ params:
   comments:
     # 开启评论组件
     # If true, will show comment component in post end.
-    enable: false   
+    enable: true   
     # 设置默认使用的评论插件
     # 可选值：livere | waline | utterances | artalk | giscus
     # Choose a comment system to be displayed by default.
