@@ -1137,7 +1137,7 @@ params:
       perPage: 10
     # 索引生成内容长度字数限制
     # Index generation content length word count limit.
-    limit: 100
+    limit: 1000
 
   # 本地搜索
   # Local Search
@@ -1147,7 +1147,7 @@ params:
     enable: true
     # 搜索索引文件路径
     # Indexes file path for search
-    path: /searchindexes.xml
+    path: /searchindexes.json
     # 是立即搜索当输入关键字时，可选值： auto | manual
     # If auto, trigger search by changing input.
     # If manual, trigger search by pressing enter key or search button.
