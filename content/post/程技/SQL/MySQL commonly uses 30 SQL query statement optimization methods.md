@@ -17,7 +17,7 @@ date: 2023-08-01
 ```SQL
 -- 创建索引
 
-CREATE INDEX idx_column ON table_name(column_name);  
+CREATEINDEXidx_columnONtable_name(column_name);  
 ```
 
 
@@ -27,11 +27,11 @@ CREATE INDEX idx_column ON table_name(column_name);
 ```SQL
 -- 不推荐  
 
-SELECT * FROM table_name;    
+SELECT*FROMtable_name;    
 
 -- 推荐  
 
-SELECT column1, column2 FROM table_name;  
+SELECTcolumn1,column2FROMtable_name;  
 ```
 
 ### 3.使用EXPLAIN分析查询计划
@@ -39,7 +39,7 @@ SELECT column1, column2 FROM table_name;
 使用EXPLAIN命令可以分析查询的执行计划，帮助优化查询语句，查找潜在的性能问题。
 
 ```SQL
-EXPLAIN SELECT * FROM table_name WHERE column_name = 'value';  
+EXPLAINSELECT*FROMtable_nameWHEREcolumn_name='value';  
 ```
 
 ## 第二部分：优化查询条件
@@ -51,11 +51,11 @@ EXPLAIN SELECT * FROM table_name WHERE column_name = 'value';
 ```SQL
 -- 不推荐  
 
-SELECT * FROM table_name;    
+SELECT*FROMtable_name;    
 
 -- 推荐  
 
-SELECT * FROM table_name WHERE column_name = 'value';  
+SELECT*FROMtable_nameWHEREcolumn_name='value';  
 ```
 
 ### 5.使用索引覆盖查询
@@ -65,11 +65,11 @@ SELECT * FROM table_name WHERE column_name = 'value';
 ```SQL
 -- 创建索引 
 
-CREATE INDEX idx_column ON table_name(column_name);    
+CREATEINDEXidx_columnONtable_name(column_name);    
 
 -- 索引覆盖查询  
 
-SELECT column1, column2 FROM table_name WHERE column_name = 'value';  
+SELECTcolumn1,column2FROMtable_nameWHEREcolumn_name='value';  
 ```
 
 ### 6.避免在WHERE子句中使用函数
@@ -79,11 +79,11 @@ SELECT column1, column2 FROM table_name WHERE column_name = 'value';
 ```SQL
 -- 不推荐 
 
-SELECT * FROM table_name WHERE DATE_FORMAT(date_column, '%Y-%m-%d') = '2023-01-01';    
+SELECT*FROMtable_nameWHEREDATE_FORMAT(date_column,'%Y-%m-%d')='2023-01-01';    
 
 -- 推荐  
 
-SELECT * FROM table_name WHERE date_column = '2023-01-01';  
+SELECT*FROMtable_nameWHEREdate_column='2023-01-01';  
 ```
 
 ### 7.使用合适的数据类型
@@ -93,11 +93,11 @@ SELECT * FROM table_name WHERE date_column = '2023-01-01';
 ```SQL
 -- 不推荐 
 
-CREATE TABLE table_name (id VARCHAR(100), name VARCHAR(100));  
+CREATETABLEtable_name(idVARCHAR(100),nameVARCHAR(100));  
 
 -- 推荐  
 
-CREATE TABLE table_name (id INT, name VARCHAR(100));
+CREATETABLEtable_name(idINT,nameVARCHAR(100));
 ```
 
 ## 第三部分：连接查询优化
@@ -109,11 +109,11 @@ CREATE TABLE table_name (id INT, name VARCHAR(100));
 ```SQL
 -- 不推荐 
 
-SELECT * FROM table1, table2 WHERE table1.id = table2.id;    
+SELECT*FROMtable1,table2WHEREtable1.id=table2.id;    
 
 -- 推荐  
 
-SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;
+SELECT*FROMtable1INNERJOINtable2ONtable1.id=table2.id;
 ```
 
 ### 9.使用JOIN ON代替WHERE子句过滤连接
@@ -123,11 +123,11 @@ SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;
 ```SQL
 -- 不推荐  
 
-SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id WHERE table2.name = 'value';    
+SELECT*FROMtable1INNERJOINtable2ONtable1.id=table2.idWHEREtable2.name='value';    
 
 -- 推荐 
 
-SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id AND table2.name = 'value';  
+SELECT*FROMtable1INNERJOINtable2ONtable1.id=table2.idANDtable2.name='value';  
 ```
 
 ### 10.使用合适的连接类型
@@ -137,18 +137,18 @@ SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id AND 
 ```SQL
 -- INNER JOIN（默认连接类型）  
 
-SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;    
+SELECT*FROMtable1INNERJOINtable2ONtable1.id=table2.id;    
 
 -- LEFT JOIN  
 
-SELECT * FROM table1 LEFT JOIN table2 ON table1.id = table2.id;    
+SELECT*FROMtable1LEFTJOINtable2ONtable1.id=table2.id;    
 -- RIGHT JOIN
 
-SELECT * FROM table1 RIGHT JOIN table2 ON table1.id = table2.id;
+SELECT*FROMtable1RIGHTJOINtable2ONtable1.id=table2.id;
 
 -- FULL JOIN
 
-SELECT * FROM table1 FULL JOIN table2 ON table1.id = table2.id;
+SELECT*FROMtable1FULLJOINtable2ONtable1.id=table2.id;
 ```
 
 ## 第四部分：子查询优化
@@ -160,11 +160,11 @@ SELECT * FROM table1 FULL JOIN table2 ON table1.id = table2.id;
 ```SQL
 -- 不推荐
 
-SELECT * FROM table1 WHERE id IN (SELECT id FROM table2);    
+SELECT*FROMtable1WHEREidIN(SELECTidFROMtable2);    
 
 -- 推荐  
 
-SELECT * FROM table1 WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.id = table2.id);  
+SELECT*FROMtable1WHEREEXISTS(SELECT1FROMtable2WHEREtable1.id=table2.id);  
 ```
 
 ### 12.使用JOIN代替子查询
@@ -175,11 +175,11 @@ SELECT * FROM table1 WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.
 
 -- 不推荐
 
-SELECT * FROM table1 WHERE id IN (SELECT id FROM table2);    
+SELECT*FROMtable1WHEREidIN(SELECTidFROMtable2);    
 
 -- 推荐  
 
-SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;  
+SELECT*FROMtable1INNERJOINtable2ONtable1.id=table2.id;  
 ```
 
 ## 第五部分：LIMIT优化
@@ -192,7 +192,7 @@ SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;
 
 -- 返回前10条记录  
 
-SELECT * FROM table_name LIMIT 10;
+SELECT*FROMtable_nameLIMIT10;
 ```
 
 ### 14.使用分页查询
@@ -202,11 +202,11 @@ SELECT * FROM table_name LIMIT 10;
 ```SQL
 -- 返回第1页的数据，每页10条记录
 
-SELECT * FROM table_name LIMIT 0, 10;    
+SELECT*FROMtable_nameLIMIT0,10;    
 
 -- 返回第2页的数据，每页10条记录 
 
-SELECT * FROM table_name LIMIT 10, 10;  
+SELECT*FROMtable_nameLIMIT10,10;  
 ```
 
 ## 第六部分：排序优化
@@ -219,11 +219,11 @@ SELECT * FROM table_name LIMIT 10, 10;
 
 -- 不推荐  
 
-SELECT * FROM table_name ORDER BY name;    
+SELECT*FROMtable_nameORDERBYname;    
 
 -- 推荐  
 
-SELECT * FROM table_name ORDER BY indexed_column;  
+SELECT*FROMtable_nameORDERBYindexed_column;  
 ```
 
 ### 16.使用覆盖索引减少排序
@@ -234,11 +234,11 @@ SELECT * FROM table_name ORDER BY indexed_column;
 
 -- 创建索引  
 
-CREATE INDEX idx_name ON table_name(name);    
+CREATEINDEXidx_nameONtable_name(name);    
 
 -- 使用覆盖索引  
 
-SELECT name FROM table_name ORDER BY name;  
+SELECTnameFROMtable_nameORDERBYname;  
 ```
 
 ### 17.使用DESC进行降序排序
@@ -249,7 +249,7 @@ SELECT name FROM table_name ORDER BY name;
 
 -- 降序排序
 
-SELECT * FROM table_name ORDER BY column_name DESC;  
+SELECT*FROMtable_nameORDERBYcolumn_nameDESC;  
 ```
 
 ## 第七部分：避免使用通配符
@@ -261,11 +261,11 @@ SELECT * FROM table_name ORDER BY column_name DESC;
 ```SQL
 -- 不推荐
 
-SELECT * FROM table_name WHERE column_name LIKE '%value';
+SELECT*FROMtable_nameWHEREcolumn_nameLIKE'%value';
 
 -- 推荐
 
-SELECT * FROM table_name WHERE column_name LIKE 'value%';  
+SELECT*FROMtable_nameWHEREcolumn_nameLIKE'value%';  
 ```
 
 ### 19.使用前缀索引
@@ -276,11 +276,11 @@ SELECT * FROM table_name WHERE column_name LIKE 'value%';
 
 -- 创建前缀索引
 
-CREATE INDEX idx_column ON table_name(column_name(10));
+CREATEINDEXidx_columnONtable_name(column_name(10));
 
 -- 使用前缀索引
 
-SELECT * FROM table_name WHERE column_name LIKE 'value%';  
+SELECT*FROMtable_nameWHEREcolumn_nameLIKE'value%';  
 ```
 
 ## 第八部分：联合查询优化
@@ -293,11 +293,11 @@ SELECT * FROM table_name WHERE column_name LIKE 'value%';
 
 -- 不推荐
 
-SELECT * FROM table1 WHERE condition  UNION  SELECT * FROM table2 WHERE condition;
+SELECT*FROMtable1WHEREcondition  UNION  SELECT*FROMtable2WHEREcondition;
 
 -- 推荐  
 
-SELECT * FROM table1 WHERE condition  UNION ALL  SELECT * FROM table2 WHERE condition;  
+SELECT*FROMtable1WHEREcondition  UNIONALL  SELECT*FROMtable2WHEREcondition;  
 ```
 
 ### 21.使用EXISTS代替IN和UNION
@@ -308,11 +308,11 @@ SELECT * FROM table1 WHERE condition  UNION ALL  SELECT * FROM table2 
 
 -- 不推荐
 
-SELECT * FROM table1 WHERE id IN (SELECT id FROM table2 WHERE condition)  UNION  SELECT * FROM table1 WHERE id IN (SELECT id FROM table3 WHERE condition);
+SELECT*FROMtable1WHEREidIN(SELECTidFROMtable2WHEREcondition)  UNION  SELECT*FROMtable1WHEREidIN(SELECTidFROMtable3WHEREcondition);
 
 -- 推荐
 
-SELECT * FROM table1 WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.id = table2.id AND condition)  OR EXISTS (SELECT 1 FROM table3 WHERE table1.id = table3.id AND condition);  
+SELECT*FROMtable1WHEREEXISTS(SELECT1FROMtable2WHEREtable1.id=table2.idANDcondition)  OREXISTS(SELECT1FROMtable3WHEREtable1.id=table3.idANDcondition);  
 ```
 
 ## 第九部分：使用子查询优化
@@ -325,11 +325,11 @@ SELECT * FROM table1 WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.
 
 -- 不推荐
 
-SELECT * FROM table1 WHERE id IN (SELECT id FROM table2);
+SELECT*FROMtable1WHEREidIN(SELECTidFROMtable2);
 
 -- 推荐
 
-SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;  
+SELECT*FROMtable1INNERJOINtable2ONtable1.id=table2.id;  
 ```
 
 ### 23.使用EXISTS代替IN
@@ -340,11 +340,11 @@ SELECT * FROM table1 INNER JOIN table2 ON table1.id = table2.id;
 
 -- 不推荐
 
-SELECT * FROM table1 WHERE id IN (SELECT id FROM table2);
+SELECT*FROMtable1WHEREidIN(SELECTidFROMtable2);
 
 -- 推荐
 
-SELECT * FROM table1 WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.id = table2.id);  
+SELECT*FROMtable1WHEREEXISTS(SELECT1FROMtable2WHEREtable1.id=table2.id);  
 ```
 
 ## 第十部分：数据表设计优化
@@ -357,11 +357,11 @@ SELECT * FROM table1 WHERE EXISTS (SELECT 1 FROM table2 WHERE table1.
 
 -- 不推荐
 
-CREATE TABLE table_name (id VARCHAR(100), name VARCHAR(100));
+CREATETABLEtable_name(idVARCHAR(100),nameVARCHAR(100));
 
 -- 推荐
 
-CREATE TABLE table_name (id INT, name VARCHAR(100));
+CREATETABLEtable_name(idINT,nameVARCHAR(100));
 ```
 
 ### 25.垂直拆分表

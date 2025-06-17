@@ -132,7 +132,7 @@ $ umount /tmp/.X11-unix
 再次执行rm -rf /tmp/.X11-unix，如果正常删除的话就进行下一步
 
 ## 5 配置servername
-vim /etc/resolv.conf
+vim/etc/resolv.conf
 
 加上这一行
 
@@ -149,9 +149,9 @@ vncserver成功启动会有下面的打印，里面会分配一个port，第一�
 
 Win-KeX server sessions:
 
-X DISPLAY #     RFB PORT #      RFB UNIX PATH   PROCESS ID #    SERVER
+X DISPLAY #  RFB PORT #   RFB UNIX PATH PROCESS ID #  SERVER
 
-1               5901                            775             Xtigervnc
+1       5901              775      Xtigervnc
 
 ## 7 Windows环境下载开源的vnc client
 https://sourceforge.net/projects/tigervnc/

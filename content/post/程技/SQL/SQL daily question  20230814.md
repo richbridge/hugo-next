@@ -35,24 +35,24 @@ G0227B（订单表）
 ### 要求：用至少四种方法求解。
 
 ```sql
-create table G0814A  
+createtableG0814A  
 (  
-Id int,  
-Name varchar(20)  
+Idint,  
+Namevarchar(20)  
 )  
   
-insert into G0814A values (1,'曹操');  
-insert into G0814A values (2,'关羽');  
-insert into G0814A values (3,'刘备');  
-insert into G0814A values (4,'张飞');  
+insertintoG0814Avalues(1,'曹操');  
+insertintoG0814Avalues(2,'关羽');  
+insertintoG0814Avalues(3,'刘备');  
+insertintoG0814Avalues(4,'张飞');  
   
-create table G0814B(  
-Id int,  
-CustomerId int  
+createtableG0814B(  
+Idint,  
+CustomerIdint  
 )  
   
-insert into G0814B values (1,3);  
-insert into G0814B values (2,1);
+insertintoG0814Bvalues(1,3);  
+insertintoG0814Bvalues(2,1);
 ```
 
 ### 参考答案

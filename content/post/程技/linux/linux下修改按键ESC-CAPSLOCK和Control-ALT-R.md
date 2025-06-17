@@ -4,9 +4,8 @@ date: 2017-10-20 17:38:49
 categories: [程技]
 tags: ['keybord','vim','emacs','linux']
 ---
-使用 `vim` 过程中发现 `esc` 和 `ctrl` 按键很难按，小拇指没有那么长啊～～，而 `caps_lock` 和 `alt_r`(右alt) 很少用。
 
-本教程将 `esc` 和 `caps_lock` 两个按键交换， `alt_r`(右alt) 改为 `ctrl`。
+使用 `vim` 过程中发现 `esc` 和 `ctrl` 按键很难按，小拇指没有那么长啊～～，而 `caps_lock` 和 `alt_r`(右alt) 很少用。
 
 <!--more-->
 

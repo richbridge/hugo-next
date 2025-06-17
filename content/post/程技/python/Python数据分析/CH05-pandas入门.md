@@ -1643,12 +1643,12 @@ dtype: float64
 
 传入axis='columns'或axis=1将会按行进行求和运算：
 ```python
-In [233]: df.sum(axis=1)
+In[233]:df.sum(axis=1)
 Out[233]:
-a    1.40
-b    2.60
-c     NaN
-d   -0.55
+a1.40
+b2.60
+cNaN
+d-0.55
 ```
 
 NA值会自动被排除，除非整个切片（这里指的是行或列）都是NA。通过skipna选项可以禁用该功能：
