@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（16）: which'
 date: 2016-12-16 11:25:49
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

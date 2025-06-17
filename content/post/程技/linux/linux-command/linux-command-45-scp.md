@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（45）: scp'
 date: 2017-01-13 10:53:48
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

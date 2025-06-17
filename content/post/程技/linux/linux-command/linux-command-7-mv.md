@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（7）: mv'
 date: 2016-12-07 15:55:20
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

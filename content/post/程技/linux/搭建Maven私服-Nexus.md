@@ -1,7 +1,6 @@
 ---
 title: 搭建Maven私服-Nexus
 date: 2017-09-06 23:01:31
-type: posts
 categories: [程技]
 tags: ['maven','nexus','java']
 ---

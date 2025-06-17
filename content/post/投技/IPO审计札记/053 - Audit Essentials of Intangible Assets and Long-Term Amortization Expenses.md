@@ -1,6 +1,5 @@
 ---
 title: "053-无形资产和长期待摊费用审计要点"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01

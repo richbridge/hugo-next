@@ -1,6 +1,5 @@
 ---
 title: "003-入门常识之Excel快捷键"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01

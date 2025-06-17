@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（2）: cd'
 date: 2016-12-02 11:04:55
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

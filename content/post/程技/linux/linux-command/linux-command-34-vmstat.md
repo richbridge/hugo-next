@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（34）: vmstat'
 date: 2017-01-03 09:46:57
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

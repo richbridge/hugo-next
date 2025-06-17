@@ -1,7 +1,6 @@
 ---
 title: Dockerfile指令详解
 date: 2017-05-22 19:11:42
-type: posts
 categories: [程技]
 tags: ['docker']
 ---

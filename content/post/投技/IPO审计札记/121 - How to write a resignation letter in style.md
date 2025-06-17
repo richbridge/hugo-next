@@ -1,6 +1,5 @@
 ---
 title: "121-辞职信怎么写出格调"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01

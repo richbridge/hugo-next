@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（40）: traceroute'
 date: 2017-01-09 10:56:53
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

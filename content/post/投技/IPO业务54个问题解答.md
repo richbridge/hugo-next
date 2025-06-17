@@ -1,6 +1,5 @@
 ---
 title: IPO业务54个问题解答
-type: posts
 categories: [投技]
 tags: [IPO]
 date: 2023-10-30

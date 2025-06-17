@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（31）: du'
 date: 2016-12-31 14:36:01
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

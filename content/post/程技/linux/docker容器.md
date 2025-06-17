@@ -1,7 +1,6 @@
 ---
 title: docker容器
 date: 2017-05-23 21:29:38
-type: posts
 categories: [程技]
 tags: ['docker']
 ---

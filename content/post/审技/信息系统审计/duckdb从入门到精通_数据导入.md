@@ -1,6 +1,5 @@
 ---
 title: duckdb从入门到精通：数据导入
-type: posts
 categories: [审技]
 tags: [IT审计]
 date: 2023-05-05 14:19:09

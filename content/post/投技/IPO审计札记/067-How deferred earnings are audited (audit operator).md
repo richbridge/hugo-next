@@ -1,6 +1,5 @@
 ---
 title: "067-递延收益如何进行审计（审计话事人）"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01

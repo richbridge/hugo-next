@@ -1,6 +1,5 @@
 ---
 title: "048-在建工程审计要点"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01

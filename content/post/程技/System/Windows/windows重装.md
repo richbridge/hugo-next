@@ -1,7 +1,6 @@
 ---
 title: windows重装
 date: 2020-01-01 10:00:00
-type: posts
 categories: [程技]
 tags:  [windows]
 ---

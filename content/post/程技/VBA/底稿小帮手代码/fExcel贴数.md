@@ -1,7 +1,6 @@
 ---
 title: fExcel贴数
 date: 2023-05-15
-type: posts
 categories: [程技]
 tags: [VBA]
 ---

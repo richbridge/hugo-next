@@ -1,7 +1,6 @@
 ---
 title: CentOS7使用Firewalld
 date: 2017-09-19 09:53:53
-type: posts
 categories: [程技]
 tags: ['firewall']
 ---

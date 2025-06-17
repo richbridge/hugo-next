@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（50）: grep'
 date: 2017-01-18 10:12:46
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

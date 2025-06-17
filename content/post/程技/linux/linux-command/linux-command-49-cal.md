@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（49）: cal'
 date: 2017-01-17 09:38:32
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

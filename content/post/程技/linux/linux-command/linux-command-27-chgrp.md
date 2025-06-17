@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（27）: chgrp'
 date: 2016-12-27 09:40:06
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

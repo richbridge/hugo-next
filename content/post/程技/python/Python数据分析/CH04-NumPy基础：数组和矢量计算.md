@@ -1,6 +1,5 @@
 ---
 title: "第四章 Numpy 基础"
-type: posts
 categories: [程技]
 tags: ["python"]
 date: 2023-09-25

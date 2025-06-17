@@ -1,6 +1,5 @@
 ---
 title: Golang入门笔记-CH03-Go语言基本数据类型
-type: posts
 categories: [程技]
 tags: [Golang]
 date: 2022-10-01

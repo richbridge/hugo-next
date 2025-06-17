@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（53）: watch'
 date: 2017-01-21 10:12:30
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（22）: find命令的参数详解'
 date: 2016-12-22 11:44:14
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

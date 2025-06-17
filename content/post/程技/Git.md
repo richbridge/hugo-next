@@ -1,6 +1,5 @@
 ---
 title: "Git 的使用"
-type: posts
 categories: [程技]
 tags: ["git"]
 date: 2023-09-25

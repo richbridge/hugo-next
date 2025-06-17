@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SQL on 樊尘刹记</title><link>//localhost:1313/tags/sql/</link><description>Recent content in SQL on 樊尘刹记</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 19 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/sql/rss.xml" rel="self" type="application/rss+xml"/><item><title>MySQL常用函数</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/mysql%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/mysql%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</guid><description>&lt;h2 id="1数学函数">1、数学函数
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SQL on 樊尘刹记</title><link>http://localhost:1313/tags/sql/</link><description>Recent content in SQL on 樊尘刹记</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 19 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/sql/rss.xml" rel="self" type="application/rss+xml"/><item><title>MySQL常用函数</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/mysql%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</link><pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/mysql%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</guid><description>&lt;h2 id="1数学函数">1、数学函数
 &lt;a class="header-anchor" href="#1%e6%95%b0%e5%ad%a6%e5%87%bd%e6%95%b0">&lt;/a>
 &lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -66,7 +66,7 @@
 &lt;/div>
 &lt;/div>
 
-&lt;p>3、字符串函数（20个）&lt;/p></description></item><item><title>live_max_online</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/live_max_online/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/live_max_online/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;p>3、字符串函数（20个）&lt;/p></description></item><item><title>live_max_online</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/live_max_online/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/live_max_online/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
 &lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>
@@ -303,9 +303,9 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">t3&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">group&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">by&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">live_id&lt;/span>&lt;span class="p">;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>MySQL常用30种SQL查询语句优化方法</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/mysql-commonly-uses-30-sql-query-statement-optimization-methods/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/mysql-commonly-uses-30-sql-query-statement-optimization-methods/</guid><description>&lt;h2 id="引言">引言
+&lt;/div></description></item><item><title>MySQL常用30种SQL查询语句优化方法</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/mysql-commonly-uses-30-sql-query-statement-optimization-methods/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/mysql-commonly-uses-30-sql-query-statement-optimization-methods/</guid><description>&lt;h2 id="引言">引言
 &lt;a class="header-anchor" href="#%e5%bc%95%e8%a8%80">&lt;/a>
-&lt;/h2>&lt;p>在开发和维护MySQL数据库时，优化SQL查询语句是提高数据库性能和响应速度的关键。通过合理优化SQL查询，可以减少数据库的负载，提高查询效率，为用户提供更好的用户体验。本文将介绍常用的30种MySQL SQL查询优化方法，并通过实际案例演示它们的应用。&lt;/p></description></item><item><title>SQL每日一题(20230814)</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question--20230814/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question--20230814/</guid><description>&lt;h2 id="sql每日一题20230814">SQL每日一题(20230814)
+&lt;/h2>&lt;p>在开发和维护MySQL数据库时，优化SQL查询语句是提高数据库性能和响应速度的关键。通过合理优化SQL查询，可以减少数据库的负载，提高查询效率，为用户提供更好的用户体验。本文将介绍常用的30种MySQL SQL查询优化方法，并通过实际案例演示它们的应用。&lt;/p></description></item><item><title>SQL每日一题(20230814)</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question--20230814/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question--20230814/</guid><description>&lt;h2 id="sql每日一题20230814">SQL每日一题(20230814)
 &lt;a class="header-anchor" href="#sql%e6%af%8f%e6%97%a5%e4%b8%80%e9%a2%9820230814">&lt;/a>
 &lt;/h2>&lt;h3 id="题目">题目
 &lt;a class="header-anchor" href="#%e9%a2%98%e7%9b%ae">&lt;/a>
@@ -355,7 +355,7 @@
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
-&lt;p>查询G0227B表（订单表）中找出从来没有买过商品的用户。&lt;/p></description></item><item><title>SQL每日一题F0215，多种方法及思路讲解</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f0215-a-variety-of-methods-and-ideas-explained/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f0215-a-variety-of-methods-and-ideas-explained/</guid><description>&lt;h2 id="sql每日一题f0215多种方法及思路讲解">SQL每日一题F0215，多种方法及思路讲解
+&lt;p>查询G0227B表（订单表）中找出从来没有买过商品的用户。&lt;/p></description></item><item><title>SQL每日一题F0215，多种方法及思路讲解</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f0215-a-variety-of-methods-and-ideas-explained/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f0215-a-variety-of-methods-and-ideas-explained/</guid><description>&lt;h2 id="sql每日一题f0215多种方法及思路讲解">SQL每日一题F0215，多种方法及思路讲解
 &lt;a class="header-anchor" href="#sql%e6%af%8f%e6%97%a5%e4%b8%80%e9%a2%98f0215%e5%a4%9a%e7%a7%8d%e6%96%b9%e6%b3%95%e5%8f%8a%e6%80%9d%e8%b7%af%e8%ae%b2%e8%a7%a3">&lt;/a>
 &lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -627,7 +627,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">GROUP&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">STUID&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">HAVING&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">COUNT&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">STUID&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">2&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>SQL每日一题F1021，while循环操作</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1021-while-loop-operation/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1021-while-loop-operation/</guid><description>&lt;h2 id="sql每日一题f1021while循环操作">SQL每日一题F1021，while循环操作
+&lt;/div></description></item><item><title>SQL每日一题F1021，while循环操作</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1021-while-loop-operation/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1021-while-loop-operation/</guid><description>&lt;h2 id="sql每日一题f1021while循环操作">SQL每日一题F1021，while循环操作
 &lt;a class="header-anchor" href="#sql%e6%af%8f%e6%97%a5%e4%b8%80%e9%a2%98f1021while%e5%be%aa%e7%8e%af%e6%93%8d%e4%bd%9c">&lt;/a>
 &lt;/h2>&lt;p>/*
 写一个查询语句要求
@@ -648,7 +648,7 @@ CONTINUE
 ELSE
 SET @sum=@sum+@i
 END
-PRINT @sum&lt;/p></description></item><item><title>SQL每日一题F1025，复杂逻辑处理</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1025-complex-logic-processing/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1025-complex-logic-processing/</guid><description>&lt;h2 id="sql每日一题f1025复杂逻辑处理">SQL每日一题F1025，复杂逻辑处理
+PRINT @sum&lt;/p></description></item><item><title>SQL每日一题F1025，复杂逻辑处理</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1025-complex-logic-processing/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1025-complex-logic-processing/</guid><description>&lt;h2 id="sql每日一题f1025复杂逻辑处理">SQL每日一题F1025，复杂逻辑处理
 &lt;a class="header-anchor" href="#sql%e6%af%8f%e6%97%a5%e4%b8%80%e9%a2%98f1025%e5%a4%8d%e6%9d%82%e9%80%bb%e8%be%91%e5%a4%84%e7%90%86">&lt;/a>
 &lt;/h2>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -690,7 +690,7 @@ PRINT @sum&lt;/p></description></item><item><title>SQL每日一题F1025，复杂
 
 &lt;p>&amp;ndash; Q：要求当Num中的数据同时大于上下两行数据，返回值为“是”，
 &amp;ndash; 当Num中的数据小于上下两行数据中的任何一行，返回值为“否”
-&amp;ndash; 例如：11大于5,11大于0，所以11那行返回值为“是”；5小于11，所以5那行返回值为“否”&lt;/p></description></item><item><title>SQL每日一题F1028，关联子查询</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1028-correlation-subquery/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1028-correlation-subquery/</guid><description>&lt;h2 id="sql每日一题f1028关联子查询">SQL每日一题F1028，关联子查询
+&amp;ndash; 例如：11大于5,11大于0，所以11那行返回值为“是”；5小于11，所以5那行返回值为“否”&lt;/p></description></item><item><title>SQL每日一题F1028，关联子查询</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1028-correlation-subquery/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/sql-daily-question-f1028-correlation-subquery/</guid><description>&lt;h2 id="sql每日一题f1028关联子查询">SQL每日一题F1028，关联子查询
 &lt;a class="header-anchor" href="#sql%e6%af%8f%e6%97%a5%e4%b8%80%e9%a2%98f1028%e5%85%b3%e8%81%94%e5%ad%90%e6%9f%a5%e8%af%a2">&lt;/a>
 &lt;/h2>&lt;p>create table F1028A
 (aid varchar(20),
@@ -699,7 +699,7 @@ bid varchar(20)
 insert into F1028A values (&amp;lsquo;跑步&amp;rsquo;,&amp;lsquo;张三&amp;rsquo;);
 insert into F1028A values (&amp;lsquo;游泳&amp;rsquo;,&amp;lsquo;张三&amp;rsquo;);
 insert into F1028A values (&amp;lsquo;跳远&amp;rsquo;,&amp;lsquo;李四&amp;rsquo;);
-insert into F1028A values (&amp;lsquo;跳高&amp;rsquo;,&amp;lsquo;王五&amp;rsquo;);&lt;/p></description></item><item><title>top10_sql_skills</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/top10_sql_skills/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/top10_sql_skills/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+insert into F1028A values (&amp;lsquo;跳高&amp;rsquo;,&amp;lsquo;王五&amp;rsquo;);&lt;/p></description></item><item><title>top10_sql_skills</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/top10_sql_skills/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/top10_sql_skills/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
 &lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>
@@ -978,7 +978,7 @@ insert into F1028A values (&amp;lsquo;跳高&amp;rsquo;,&amp;lsquo;王五&amp;rs
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">join&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">cm&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">data_count&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">t2&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">on&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">datediff&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">t1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">dt&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">t2&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">dt&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="p">;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>查询连续登陆3天的用户id和登陆天数</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/online_users_with_3_consecutive_days/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/online_users_with_3_consecutive_days/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div></description></item><item><title>查询连续登陆3天的用户id和登陆天数</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/online_users_with_3_consecutive_days/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/online_users_with_3_consecutive_days/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
 &lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>
@@ -1059,7 +1059,7 @@ insert into F1028A values (&amp;lsquo;跳高&amp;rsquo;,&amp;lsquo;王五&amp;rs
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">GROUP&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">BY&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">user_id&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">delta&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">having&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">count&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">&amp;gt;=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">3&lt;/span>&lt;span class="p">;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>给定用户登录表，求表中每一天的3天留存率</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/3days_alive_users/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/3days_alive_users/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div></description></item><item><title>给定用户登录表，求表中每一天的3天留存率</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/3days_alive_users/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/3days_alive_users/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
 &lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>
@@ -1252,7 +1252,7 @@ insert into F1028A values (&amp;lsquo;跳高&amp;rsquo;,&amp;lsquo;王五&amp;rs
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">from&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">cm&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">tb_user_logs&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">where&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">date&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">visit_time&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;2022-10-04&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>求占据前90%销售额的商品类型</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/90_percent_contribution_goods/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/90_percent_contribution_goods/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div></description></item><item><title>求占据前90%销售额的商品类型</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/90_percent_contribution_goods/</link><pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/sql/90_percent_contribution_goods/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt" id="hl-0-1">&lt;a class="lnlinks" href="#hl-0-1"> 1&lt;/a>
 &lt;/span>&lt;span class="lnt" id="hl-0-2">&lt;a class="lnlinks" href="#hl-0-2"> 2&lt;/a>

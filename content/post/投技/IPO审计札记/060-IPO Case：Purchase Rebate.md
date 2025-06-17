@@ -1,6 +1,5 @@
 ---
 title: "060-IPO 案例：采购返利"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01

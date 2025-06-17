@@ -1,6 +1,5 @@
 ---
 title: "emoji"
-type: posts
 categories: [程技]
 tags: ["emoji"]
 date: 2023-08-01

@@ -1,7 +1,6 @@
 ---
 title: Docker 技术整理
 date: 2020-09-01 22:11:00
-type: posts
 categories: [程技]
 tags: ['linux','docker']
 ---

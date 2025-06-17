@@ -1,6 +1,5 @@
 ---
 title: xbase讲义
-type: posts
 categories: [审技]
 tags: [合并]
 date: 2023-08-01

@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（51）: wc'
 date: 2017-01-19 09:33:59
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

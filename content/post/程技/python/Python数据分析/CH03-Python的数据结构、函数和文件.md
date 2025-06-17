@@ -1,6 +1,5 @@
 ---
 title: "第三章 Python 的数据结构、函数和文件"
-type: posts
 categories: [程技]
 tags: ["python"]
 date: 2023-09-25

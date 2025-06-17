@@ -1,7 +1,6 @@
 ---
 title: IT审计
 date: 2023-08-15
-type: posts
 categories: [审技]
 tags: [IT审计]
 ---

@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（15）: tail'
 date: 2016-12-15 15:00:26
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

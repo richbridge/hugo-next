@@ -1,7 +1,6 @@
 ---
 title: nginx配置记录
 date: 2018-02-08 09:19:09
-type: posts
 categories: [程技]
 tags: ['nginx']
 ---

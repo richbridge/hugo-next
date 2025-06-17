@@ -1,6 +1,5 @@
 ---
 title: Linux
-type: posts
 categories: [程技]
 tags:
     - linux

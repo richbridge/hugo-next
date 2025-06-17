@@ -1,6 +1,5 @@
 ---
 title: docsify
-type: posts
 categories: [程技]
 tags: ["blog"]
 date: 2022-02-23 17:56:00

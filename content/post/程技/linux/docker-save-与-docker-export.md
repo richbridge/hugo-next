@@ -1,7 +1,6 @@
 ---
 title: docker备份恢复之save与export
 date: 2017-09-18 22:38:52
-type: posts
 categories: [程技]
 tags: ['docker']
 ---

@@ -1,7 +1,6 @@
 ---
 title: 解决linux下zip文件解压乱码
 date: 2017-04-25 09:10:40
-type: posts
 categories: [程技]
 tags: ['linux命令']
 ---

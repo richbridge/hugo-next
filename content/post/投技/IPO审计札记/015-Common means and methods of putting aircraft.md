@@ -1,6 +1,5 @@
 ---
 title: "015-常见放飞机的手段与方法"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01

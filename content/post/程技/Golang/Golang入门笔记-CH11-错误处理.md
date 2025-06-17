@@ -1,6 +1,5 @@
 ---
 title: Golang入门笔记-CH11-错误处理
-type: posts
 categories: [程技]
 tags: [Golang]
 date: 2022-10-01

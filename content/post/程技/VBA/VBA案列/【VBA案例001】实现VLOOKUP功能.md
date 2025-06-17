@@ -1,7 +1,6 @@
 ---
 title: 【VBA案例001】实现VLOOKUP功能
 date: 2023-10-23
-type: posts
 categories: [程技]
 tags: [VBA]
 ---

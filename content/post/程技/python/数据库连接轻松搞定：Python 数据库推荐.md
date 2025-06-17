@@ -1,7 +1,6 @@
 ---
 title: 数据库连接轻松搞定：Python 数据库推荐
 date: 2023-08-12 17:56:00
-type: posts
 categories: [程技]
 tags:  [python]
 ---

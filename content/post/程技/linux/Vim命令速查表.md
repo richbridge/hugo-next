@@ -1,7 +1,6 @@
 ---
 title: Vim命令速查表
 date: 2017-03-06 11:23:36
-type: posts
 categories: [程技]
 tags: ['vim']
 ---

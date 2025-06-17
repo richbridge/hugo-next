@@ -1,6 +1,5 @@
 ---
 title: Golang入门笔记-CH10-函数高级特性
-type: posts
 categories: [程技]
 tags: [Golang]
 date: 2022-10-01

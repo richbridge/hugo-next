@@ -1,7 +1,6 @@
 ---
 title: h行列校验
 date: 2023-05-15
-type: posts
 categories: [程技]
 tags: [VBA]
 ---

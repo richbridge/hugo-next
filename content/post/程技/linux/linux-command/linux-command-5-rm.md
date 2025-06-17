@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（5）: rm'
 date: 2016-12-05 13:40:38
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

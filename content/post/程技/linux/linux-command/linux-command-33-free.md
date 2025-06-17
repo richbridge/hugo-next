@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（33）: free'
 date: 2017-01-02 21:43:26
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

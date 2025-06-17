@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（11）: nl'
 date: 2016-12-11 21:11:48
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

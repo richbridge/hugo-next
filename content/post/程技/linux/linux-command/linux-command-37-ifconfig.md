@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（37）: ifconfig'
 date: 2017-01-06 09:57:01
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

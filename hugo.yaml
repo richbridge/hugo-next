@@ -926,15 +926,15 @@ params:
     # 设置你要显示的2个评论插件，`weight` 数字越小越靠前
     # `name` 参数名可选值：livere | waline | waline3 | utterances | artalk | giscus
     # Modify texts or order for any naves, here are some examples.
-    # nav:
+    nav:
     #   - name: waline
     #     title: Waline
     #     color: "#27ae60"
     #     weight: 1
-    #   - name: giscus
-    #     title: Giscus
-    #     color: "#886ce4"
-    #     weight: 2
+      - name: giscus
+        title: Giscus
+        color: "#886ce4"
+        weight: 2
 
   # Waline 评论插件
   # 更多配置信息请参考：https://waline.js.org/

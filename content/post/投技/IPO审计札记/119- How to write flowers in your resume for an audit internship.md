@@ -1,6 +1,5 @@
 ---
 title: "119-如何把审计实习打杂抽凭在简历中写出花来"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01

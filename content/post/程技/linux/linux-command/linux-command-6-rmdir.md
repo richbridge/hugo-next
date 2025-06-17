@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（6）: rmdir'
 date: 2016-12-06 15:24:32
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（44）: rcp'
 date: 2017-01-12 10:36:06
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

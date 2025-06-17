@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（20）: find命令之exec'
 date: 2016-12-20 10:47:32
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

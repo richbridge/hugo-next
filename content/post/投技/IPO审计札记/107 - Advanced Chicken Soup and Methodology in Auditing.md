@@ -1,6 +1,5 @@
 ---
 title: "107-审计进阶的鸡汤与方法论"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01

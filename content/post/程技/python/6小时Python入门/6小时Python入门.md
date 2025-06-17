@@ -1,6 +1,5 @@
 ---
 title: "6 小时 Python 入门"
-type: posts
 categories: [程技]
 tags: ["python"]
 date: 2023-09-25

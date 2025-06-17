@@ -1,7 +1,6 @@
 ---
 title: '每天一个linux命令（48）: date'
 date: 2017-01-16 14:39:27
-type: posts
 categories: [程技]
 tags: ["linux命令"]
 ---

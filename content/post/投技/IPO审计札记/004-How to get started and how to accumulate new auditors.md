@@ -1,6 +1,5 @@
 ---
 title: "004-审计新人如何入门，如何积累"
-type: posts
 categories: [投技]
 tags: [IPO审计手札]
 date: 2023-08-01
