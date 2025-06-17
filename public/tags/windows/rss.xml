@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on 樊尘刹记</title><link>//localhost:1313/tags/windows/</link><description>Recent content in Windows on 樊尘刹记</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 27 Jul 2023 18:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/windows/rss.xml" rel="self" type="application/rss+xml"/><item><title>WSL（适用于 Linux 的 Windows 子系统）Kali在线安装</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/system/wsl%E9%80%82%E7%94%A8%E4%BA%8E-linux-%E7%9A%84-windows-%E5%AD%90%E7%B3%BB%E7%BB%9Fkali%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85/</link><pubDate>Thu, 27 Jul 2023 18:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/system/wsl%E9%80%82%E7%94%A8%E4%BA%8E-linux-%E7%9A%84-windows-%E5%AD%90%E7%B3%BB%E7%BB%9Fkali%E5%9C%A8%E7%BA%BF%E5%AE%89%E8%A3%85/</guid><description>&lt;p>WSL-Kali安装说明：https://www.kali.org/docs/wsl/win-kex/
+WSL-Kali软件安装：https://blog.csdn.net/NDASH/article/details/124147241
+WSL-Kali报错解决：https://blog.csdn.net/m0_65228980/article/details/124748981
+本文已过时，应适用WSL旧版本&lt;/p></description></item><item><title>windows重装</title><link>//localhost:1313/post/%E7%A8%8B%E6%8A%80/system/windows/windows%E9%87%8D%E8%A3%85/</link><pubDate>Wed, 01 Jan 2020 10:00:00 +0000</pubDate><guid>//localhost:1313/post/%E7%A8%8B%E6%8A%80/system/windows/windows%E9%87%8D%E8%A3%85/</guid><description>&lt;h2 id="更新">更新
+&lt;a class="header-anchor" href="#%e6%9b%b4%e6%96%b0">&lt;/a>
+&lt;/h2>&lt;h2 id="软件">软件
+&lt;a class="header-anchor" href="#%e8%bd%af%e4%bb%b6">&lt;/a>
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>日常&lt;/p>
+&lt;ul>
+&lt;li>WinRAR&lt;/li>
+&lt;li>7ZIP&lt;/li>
+&lt;li>微信&lt;/li>
+&lt;li>office&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>编程&lt;/p>
+&lt;ul>
+&lt;li>vscode&lt;/li>
+&lt;li>Dbeaver&lt;/li>
+&lt;li>duckdb&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>设计&lt;/p>
+&lt;ul>
+&lt;li>Photoshop&lt;/li>
+&lt;li>Acrobat&lt;/li>
+&lt;li>Illustrator&lt;/li>
+&lt;li>图压&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>审计&lt;/p>
+&lt;ul>
+&lt;li>鼎信诺&lt;/li>
+&lt;li>悦审&lt;/li>
+&lt;li>云审&lt;/li>
+&lt;li>新纪元&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>魔法&lt;/p>
+&lt;ul>
+&lt;li>clash for windows&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
