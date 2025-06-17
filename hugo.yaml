@@ -1137,7 +1137,7 @@ params:
       perPage: 10
     # 索引生成内容长度字数限制
     # Index generation content length word count limit.
-    limit: 1000
+    limit: 100
 
   # 本地搜索
   # Local Search
