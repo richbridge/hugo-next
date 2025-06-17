@@ -297,7 +297,7 @@ params:
     sidebar: custom_sidebar.html
     footer: custom_footer.html
     style: /css/custom_style.css
-    js: https://umami.252262.xyz/script.js
+    js: /js/script.js
 
   # 知识共享国际许可 4.0
   # 更多信息： https://creativecommons.org/about/cclicenses/
