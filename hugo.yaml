@@ -168,7 +168,7 @@ outputFormats:
 # By default use local search, before switch to Algolia engine
 # Please replace LocalIndexes with AlgoliaIndexes
 outputs:
-  home: ["HTML", "RSS", "LocalIndexes", "AlgoliaIndexes"]
+  home: ["HTML", "RSS", "AlgoliaIndexes", "LocalIndexes"]
 
 # 输出 robots 文件支持爬虫扫描
 # Enable robots with support crawler scan
@@ -1129,7 +1129,7 @@ params:
   # Algolia Search
   # For more information: https://www.algolia.com
   algoliaSearch:
-    enable: false
+    enable: true
     appId: HP3W07LYYY #<algolia app id>
     apiKey: 24dfda5a193a1833e5b17606053cdc78 #<algolia api key>
     indexName: index #<algolia index name>
@@ -1144,7 +1144,7 @@ params:
   localSearch:
     # 是否开启搜索功能
     # Enable search function
-    enable: true
+    enable: false
     # 搜索索引文件路径
     # Indexes file path for search
     path: /searchindexes.json
