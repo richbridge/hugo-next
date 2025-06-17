@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Centos on 樊尘刹记</title><link>http://localhost:1313/tags/centos/</link><description>Recent content in Centos on 樊尘刹记</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 23 May 2017 09:53:52 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/centos/rss.xml" rel="self" type="application/rss+xml"/><item><title>CentOS修改DNS/GW/IP</title><link>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/linux/centos%E4%BF%AE%E6%94%B9dns-gw-ip/</link><pubDate>Tue, 23 May 2017 09:53:52 +0000</pubDate><guid>http://localhost:1313/post/%E7%A8%8B%E6%8A%80/linux/centos%E4%BF%AE%E6%94%B9dns-gw-ip/</guid><description>&lt;h3 id="1修改dns">1.修改DNS
-&lt;a class="header-anchor" href="#1%e4%bf%ae%e6%94%b9dns">&lt;/a>
-&lt;/h3>&lt;p>&lt;strong>解决方案一：&lt;/strong>
-修改网卡的DNS的配置文件&lt;/p></description></item></channel></rss>

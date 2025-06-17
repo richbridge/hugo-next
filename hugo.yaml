@@ -205,11 +205,29 @@ menus:
       pageRef: /
       pre: home
       weight: 1
+    - identifier: posts
+      name: 文章
+      pageRef: /post
+      pre: book
+      weight: 2
     - identifier: archives
       name: 归档
       pageRef: /archives
       pre: archive
-      weight: 2
+      weight: 1
+      parent: posts
+    - identifier: categories
+      name: 分类
+      pageRef: /categories
+      pre: category
+      weight: 2 
+      parent: posts
+    - identifier: tags
+      name: 标签
+      pageRef: /tags
+      pre: tag
+      weight: 3
+      parent: posts
     - identifier: flinks
       name: 友链
       pageRef: /flinks
